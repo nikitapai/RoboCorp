@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20220808 23:11:17.657" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Admin\.vscode\extensions\robocorp.robotframework-lsp-0.49.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Documentation">
+<arg>Order robots from RobotSpareBin Industries Inc</arg>
+<msg timestamp="20220808 23:11:42.061" level="FAIL">No keyword with name 'Documentation' found.</msg>
+<status status="FAIL" starttime="20220808 23:11:42.061" endtime="20220808 23:11:42.061"/>
+</kw>
+<kw name="Library">
+<arg>RPA.Browser.Selenium</arg>
+<arg>auto_close=${FALSE}</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.065" endtime="20220808 23:11:42.065"/>
+</kw>
+<kw name="Library">
+<arg>RPA.HTTP</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.069" endtime="20220808 23:11:42.069"/>
+</kw>
+<kw name="Library">
+<arg>RPA.Tables</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.073" endtime="20220808 23:11:42.073"/>
+</kw>
+<kw name="Library">
+<arg>RPA.PDF</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.078" endtime="20220808 23:11:42.078"/>
+</kw>
+<kw name="Library">
+<arg>RPA.Excel.Files</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.080" endtime="20220808 23:11:42.080"/>
+</kw>
+<kw name="Library">
+<arg>RPA.Archive</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.081" endtime="20220808 23:11:42.081"/>
+</kw>
+<kw name="Library">
+<arg>RPA.FileSystem</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.082" endtime="20220808 23:11:42.082"/>
+</kw>
+<kw name="Library">
+<arg>RPA.Desktop</arg>
+<status status="NOT RUN" starttime="20220808 23:11:42.085" endtime="20220808 23:11:42.085"/>
+</kw>
+<kw name="Close pop up">
+<kw name="Wait Until Element Is Visible" library="RPA.Browser.Selenium">
+<arg>id:OK</arg>
+<arg>timeout=30 s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<kw name="Capture Page Screenshot" library="RPA.Browser.Selenium">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" starttime="20220808 23:12:18.030" endtime="20220808 23:12:18.031"/>
+</kw>
+<msg timestamp="20220808 23:12:18.032" level="FAIL">No browser is open.</msg>
+<status status="FAIL" starttime="20220808 23:12:18.028" endtime="20220808 23:12:18.039"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>OK</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220808 23:12:18.040" endtime="20220808 23:12:18.040"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="RPA.Browser.Selenium">
+<arg>id:head</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="NOT RUN" starttime="20220808 23:12:18.040" endtime="20220808 23:12:18.040"/>
+</kw>
+<status status="FAIL" starttime="20220808 23:12:18.027" endtime="20220808 23:12:18.041"/>
+</kw>
+<kw name="Open Robot site">
+<msg timestamp="20220808 23:12:30.970" level="FAIL">No keyword with name 'Open Robot site' found.</msg>
+<status status="FAIL" starttime="20220808 23:12:30.970" endtime="20220808 23:12:30.970"/>
+</kw>
+<status status="PASS" starttime="20220808 23:11:17.729" endtime="20220808 23:12:44.125"/>
+</kw>
+<status status="PASS" starttime="20220808 23:11:17.728" endtime="20220808 23:12:44.125"/>
+</test>
+<status status="PASS" starttime="20220808 23:11:17.661" endtime="20220808 23:12:44.130"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
